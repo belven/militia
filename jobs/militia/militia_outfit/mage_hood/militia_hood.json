@@ -1,0 +1,53 @@
+{
+   "type": "entity",
+   "mixins": "militia:mixins:item_properties",
+   "components": {
+      "render_info": {},
+      "model_variants": {
+         "default": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(militia_hood.qb)"
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(militia_hood_female.qb)"
+            ]
+         },
+         "rabbit_male": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(militia_outfit_hood_rabbit.qb)"
+            ]
+         },
+         "rabbit_female": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(militia_outfit_hood_rabbit.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "helmet",
+         "ilevel": 2,
+         "no_drop": true
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damilitia_reduction": 2
+      },
+      "stonehearth:catalog": {
+         "display_name": "militia Hat",
+         "description": "Rather pointy",
+         "icon": "file(militia_hood.png)"
+      }
+   }
+}

@@ -1,0 +1,19 @@
+{
+   "type": "entity",
+   "components": {
+      "stonehearth:equipment_piece": {}
+   },
+   "entity_data": {
+      "stonehearth:buffs": {
+         "inflictable_debuffs": {
+            "infection": {
+               "uri": "militia:debuffs:militia:ice_debuff",
+               "chance": 1.0
+            }
+         }
+      },
+      "stonehearth:projectile_data": {
+         "projectile_uri": "militia:militia:projectiles:icicle_projectile"
+      }
+   }
+}

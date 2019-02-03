@@ -1,0 +1,41 @@
+{
+	"jobs": {
+		"militia": {			
+			"militia_description": {
+				"display_name": "militia",
+				"description": "A ranged combat class that uses magic to damilitia foes",
+				"requirements": "A few experimental components and a lot of errors!",
+				"level_1_data": {
+					"perk_000_name": "Bigger Explosions!",
+					"perk_000_description": "A damilitia buff"					
+				}
+			},
+			"militia_outfit": {
+				"display_name": "militia",
+				"description": "Some light robes"				
+			},
+			"perk_description": {
+				"display_name": "militia",
+				"description": "A damilitia buff"				
+			}				
+		},
+		"carpenter": {
+			"recipes": {
+				"magician_staff_recipe": {
+					"recipe_name": "Staff",
+					"description": "A weapon used by the militia"
+				}
+			}
+		}
+	},
+	"weapons": {
+		"staff": {
+			"display_name": "Staff",
+			"description": "A weapon used by the militia",
+			"staff_talisman": {
+				"display_name": "Staff",
+				"description": "A weapon used by the militia"	
+			}
+		}
+	}
+}

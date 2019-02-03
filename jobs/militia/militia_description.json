@@ -1,0 +1,82 @@
+{
+   "type": "job",
+   "enabled": true,
+   "job_id": "militia",
+   "display_order": 1,
+   "alias": "militia:jobs:militia",
+   "display_name": "i18n(militia:jobs.militia.militia_description.display_name)",
+   "controller": "militia:class:militia",
+   "description": "i18n(militia:jobs.militia.militia_description.description)",
+   "requirements": "i18n(militia:jobs.militia.militia_description.requirements)",
+   "talisman_uri": "militia:militia:talisman",
+   "default_stance": "aggressive",
+   "abilities": "file(militia_abilities)",
+   "equipment": {
+      "helmet": "file(militia_outfit/militia_hood)",
+      "torso": "file(militia_outfit)",
+      "mainhand": "militia:weapons:staff"
+   },
+   "roles":["militia_job", "cloth_wearer", "ranged_combat", "combat", "hunter"],
+   "promotion_activity_name": "promote_militia",
+   "task_groups": [
+      "stonehearth:task_groups:common_tasks",
+      "stonehearth:task_groups:restock",
+      "stonehearth:task_groups:rescue",
+      "stonehearth:task_groups:placement",
+      "stonehearth:task_groups:mining",
+      "stonehearth:task_groups:harvest",
+      "stonehearth:task_groups:build"
+   ],
+   "xp_rewards": {
+      "town_protection": 1
+   },
+   "icon": "file(imilitias/icon.png)",
+   "parent_job": "stonehearth:jobs:worker",
+   "max_level": 6,
+   "level_data": {
+      "1": {
+         "perks": [
+            {
+               "type": "apply_buff",
+               "name": "i18n(militia:jobs.militia.militia_description.level_1_data.perk_000_name)",
+               "id": "militia_damilitia_up_1",
+               "icon": "file(imilitias/damilitia_up_1.png)",
+               "buff_name": "militia:buffs:militia:dmg_1",
+               "description": "i18n(militia:jobs.militia.militia_description.level_1_data.perk_000_description)",
+               "level": 1,
+               "demote_fn": "remove_buff"
+            }
+		]
+      },
+      "2": {
+         "perks": [
+            {
+               "type": "apply_buff",
+               "name": "i18n(stonehearth:jobs.knight.knight_description.level_5_data.perk_000_name)",
+               "id": "militia_speed_aura",
+               "icon": "file(imilitias/knight_perk_inspiring_presence.png)",
+               "buff_name": "militia:buffs:militia:speed_aura",
+               "description": "i18n(stonehearth:jobs.knight.knight_description.level_5_data.perk_000_description)",
+               "level": 2,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "3": {
+         "perks": [
+            {
+               "type": "add_combat_action",
+               "name": "Icicle Blast",
+               "id": "icicle_blast",
+               "icon": "file(imilitias/default_shot.png)",
+               "equipment": "militia:abilities:militia:icicle_blast",
+               "action_type": "stonehearth:combat:ranged_attacks",
+               "description": "A sharp shard of ice that freezes the target",
+               "level": 3,
+				"cooldown": 4000,
+               "demote_fn": "remove_combat_action"
+            }
+         ]
+      }
+   }
+}

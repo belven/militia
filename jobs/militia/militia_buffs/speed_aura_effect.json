@@ -1,0 +1,15 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "Wind Speed",
+   "description": "Ride like the wind!",
+   "icon": "file(knight_buff_is_inspired.png)",
+   "duration": "15m",
+   "repeat_add_action": "renew_duration",
+   "persistent": false,
+   "modifiers": {
+      "speed": {
+         "add": 100
+      }
+   }
+}
