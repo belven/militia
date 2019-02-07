@@ -10,7 +10,7 @@
       "armor":{
          "recipes":{
             "light_shield":{
-               "recipe":"file(light_shield.json)"
+               "recipe":"file(light_shield_recipe.json)"
             }
          }
       }
