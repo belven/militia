@@ -2,7 +2,8 @@
    "info":{
       "name":"Militia",
       "namespace":"militia",
-      "version":3
+      "version":3,
+		"steam_file_id" : "1648147351"
    },
    "default_locale":"en",
    "aliases":{
