@@ -15,7 +15,13 @@
       "torso": "file(militia_outfit)",
       "mainhand": "militia:weapons:spear"
    },
-   "roles":["militia_job", "cloth_wearer", "melee_combat", "combat", "hunter"],
+   "roles": [
+      "militia_job",
+      "cloth_wearer",
+      "melee_combat",
+      "combat",
+      "hunter"
+   ],
    "promotion_activity_name": "promote_militia",
    "task_groups": [
       "stonehearth:task_groups:common_tasks",
@@ -29,9 +35,8 @@
    "xp_rewards": {
       "town_protection": 1
    },
-   "icon": "file(imilitias/icon.png)",
+   "icon": "file(images/icon.png)",
    "parent_job": "stonehearth:jobs:worker",
    "max_level": 6,
-   "level_data": {
-   }
+   "level_data": {}
 }

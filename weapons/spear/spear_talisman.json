@@ -1,11 +1,11 @@
 {
-   "mixins": "militia:mixins:item_properties",
+   "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
       "model_variants": {
          "default": {
             "models": [
-               "file(staff_iconic.qb)"
+               "file(spear.qb)"
             ]
          }
       },
@@ -18,7 +18,7 @@
    },
    "entity_data": {
       "stonehearth:net_worth": {
-         "value_in_gold": 15,
+         "value_in_gold": 10,
          "rarity": "rare",
          "shop_info": {
             "buyable": true,
@@ -28,12 +28,12 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(militia:weapons.staff.staff_talisman.display_name)",
-         "description": "i18n(militia:weapons.staff.staff_talisman.description)",
-         "icon": "file(staff.png)",
+         "display_name": "i18n(stonehearth:entities.weapons.spear.spear_talisman.display_name)",
+         "description": "i18n(stonehearth:entities.weapons.spear.spear_talisman.description)",
+         "icon": "file(spear.png)",
          "is_item": true,
          "category": "tools",
-         "material_tags": ["wood", "melee_weapon", "crafted", "stockpile_tool"]
+         "material_tags": ["stockpile_tool"]
       }
    }
 }

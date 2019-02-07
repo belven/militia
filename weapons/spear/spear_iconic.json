@@ -1,22 +1,23 @@
 {
-   "mixins": "militia:mixins:item_properties",
+   "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
       "model_variants": {
          "default": {
             "models": [
-               "file(staff_iconic.qb)"
+               "file(wooden_sword.qb)"
             ]
          }
       }
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(militia:weapons.staff.display_name)",
-         "description": "i18n(militia:weapons.staff.description)",
-         "icon": "file(staff.png)",
+         "display_name": "i18n(stonehearth:entities.weapons.wooden_sword.wooden_sword_iconic.display_name)",
+         "description": "i18n(stonehearth:entities.weapons.wooden_sword.wooden_sword_iconic.description)",
+         "icon": "file(wooden_sword.png)",
          "is_item": true,
-         "category": "weapons"
+         "category": "weapons",
+         "material_tags": ["wood", "melee_weapon"]
       }
    }
 }
