@@ -1,0 +1,22 @@
+{
+   "type":"recipe",
+   "effort":30,
+   "work_units":20,
+   "recipe_name":"Light Shield",
+   "description":"A basic shield used by the militia",
+   "flavor":"",
+   "portrait":"/militia/jobs/carpenter/recipes/light_shield.png",
+   "workshop":"stonehearth:carpenter:workbench",
+   "level_requirement":1,
+   "ingredients":[
+      {
+         "material":"wood resource",
+         "count":2
+      }
+   ],
+   "produces":[
+      {
+         "item":"militia:armour:light_shield"
+      }
+   ]
+}

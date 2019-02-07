@@ -1,22 +1,23 @@
 {
    "info":{
-      "name": "Militia",
-      "namespace": "militia",
+      "name":"Militia",
+      "namespace":"militia",
       "version":3
    },
-   "default_locale": "en",
+   "default_locale":"en",
    "aliases":{
-      "carpenter:recipes": "file(jobs/carpenter/recipes/spear_recipe.json)",
-      "jobs:index": "file(jobs/index.json)",
-      "jobs:militia": "file(jobs/militia/militia_description.json)",
-      "militia:spear": "file(weapons/spear/spear.json)",
-      "militia:talisman": "file(weapons/spear/spear_talisman.json)",
-      "mixins:item_properties": "file(mixins/item_properties.json)",
-      "weapons:spear": "file(weapons/spear/spear.json)"
+      "carpenter:recipes":"file(jobs/carpenter/recipes/spear_recipe.json)",
+      "jobs:index":"file(jobs/index.json)",
+      "jobs:militia":"file(jobs/militia/militia_description.json)",
+      "militia:spear":"file(weapons/spear/spear.json)",
+      "militia:talisman":"file(weapons/spear/spear_talisman.json)",
+      "mixins:item_properties":"file(mixins/item_properties.json)",
+      "weapons:spear":"file(weapons/spear/spear.json)",
+      "armour:light_shield":"file(armour/light_shield/light_shield.json)"
    },
    "mixintos":{
-      "stonehearth/jobs/carpenter/recipes/recipes.json": "file(jobs/carpenter/recipes/recipes.json)",
-      "stonehearth:jobs:index": "militia:jobs:index"
+      "stonehearth/jobs/carpenter/recipes/recipes.json":"file(jobs/carpenter/recipes/recipes.json)",
+      "stonehearth:jobs:index":"militia:jobs:index"
    },
    "overrides":{
 
@@ -25,6 +26,6 @@
 
    },
    "controllers":{
-      "class:militia": "file(jobs/militia/militia.lua)"
+      "class:militia":"file(jobs/militia/militia.lua)"
    }
 }

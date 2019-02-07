@@ -1,11 +1,18 @@
 {
-   "craftable_recipes": {
-      "tools": {
-         "recipes": {
-            "spear": {
-               "recipe": "file(spear_recipe.json)"
+   "craftable_recipes":{
+      "tools":{
+         "recipes":{
+            "spear":{
+               "recipe":"file(spear_recipe.json)"
             }
-         }      
+         }
+      },
+      "armor":{
+         "recipes":{
+            "light_shield":{
+               "recipe":"file(light_shield.json)"
+            }
+         }
       }
    }
 }
