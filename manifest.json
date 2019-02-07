@@ -1,26 +1,18 @@
 {
    "info":{
-      "name": "militia",
+      "name": "Militia",
       "namespace": "militia",
       "version":3
    },
    "default_locale": "en",
    "aliases":{
-      "animations:militia:militia_1h_shoot": "file(jobs/militia/militia_1h_shoot.json)",
-	  "abilities:militia:icicle_blast": "file(jobs/militia/militia_abilities/icicle_blast.json)",
-      "buffs:militia:dmg_1": "file(jobs/militia/militia_buffs/damilitia_1_buff.json)",
-      "buffs:militia:speed_aura_effect": "file(jobs/militia/militia_buffs/speed_aura_effect.json)",
-      "buffs:militia:speed_aura": "file(jobs/militia/militia_buffs/speed_aura.json)",
-      "carpenter:recipes": "file(jobs/carpenter/recipes/magician_staff_recipe.json)",
-      "debuffs:militia:ice_debuff": "file(jobs/militia/militia_buffs/iceshard_debuff.json)",
+      "carpenter:recipes": "file(jobs/carpenter/recipes/spear_recipe.json)",
       "jobs:index": "file(jobs/index.json)",
       "jobs:militia": "file(jobs/militia/militia_description.json)",
-      "militia:staff": "file(weapons/staff/staff.json)",
-      "militia:talisman": "file(weapons/staff/staff_talisman.json)",
-      "militia:projectiles:icicle_projectile": "file(jobs/militia/projectiles/icicle_projectile.json)",
+      "militia:spear": "file(weapons/spear/spear.json)",
+      "militia:talisman": "file(weapons/spear/spear_talisman.json)",
       "mixins:item_properties": "file(mixins/item_properties.json)",
-      "weapons:staff": "file(weapons/staff/staff.json)",
-      "effects:icicle:particle": "file(jobs/militia/Particles/ice_debuff_particle.json)"
+      "weapons:spear": "file(weapons/spear/spear.json)"
    },
    "mixintos":{
       "stonehearth/jobs/carpenter/recipes/recipes.json": "file(jobs/carpenter/recipes/recipes.json)",

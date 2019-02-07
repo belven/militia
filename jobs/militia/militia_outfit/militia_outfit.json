@@ -1,51 +1,49 @@
 {
    "type": "entity",
-   "mixins": "militia:mixins:item_properties",
+   "mixins": "stonehearth:mixins:item_properties",
    "components": {
       "render_info": {},
       "model_variants": {
          "default": {
             "layer": "clothing",
-            "transparent": "false",
+            "transparent": false,
             "models": [
-               "file(militia_outfit.qb)"
+               "file(footman_outfit.qb)"
             ]
          },
          "female": {
             "layer": "clothing",
-            "transparent": "false",
+            "transparent": false,
             "models": [
-               "file(militia_outfit_female.qb)"
+               "file(footman_outfit_female.qb)"
             ]
          },
-         "rabbit_male": {
+         "orc_male": {
             "layer": "clothing",
             "models": [
-               "file(militia_outfit_rabbit.qb)"
+               "file(footman_outfit_orc_male.qb)"
             ]
          },
-         "rabbit_female": {
+         "orc_female": {
             "layer": "clothing",
             "models": [
-               "file(militia_outfit_rabbit.qb)"
+               "file(footman_outfit_orc_female.qb)"
             ]
          }
       },
       "stonehearth:equipment_piece": {
          "render_type": "merge_with_model",
-         "slot": "torso",
-         "ilevel": 4,
-         "no_drop": true
+         "slot": "torso"
       }
    },
    "entity_data": {
       "stonehearth:combat:armor_data": {
-         "base_damilitia_reduction": 4
+         "base_damage_reduction": 2
       },
       "stonehearth:catalog": {
-         "display_name": "Robes",
-         "description": "Some light robes",
-         "icon": "file(militia_outfit.png)"
+         "display_name": "i18n(stonehearth:jobs.footman.footman_outfit.display_name)",
+         "description": "i18n(stonehearth:jobs.footman.footman_outfit.description)",
+         "icon": "file(footman_outfit.png)"
       }
    }
 }

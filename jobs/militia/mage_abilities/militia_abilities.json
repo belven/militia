@@ -5,7 +5,7 @@
          "injected_ai": {
             "ai_packs": [
                "stonehearth:ai_pack:patrolling",
-               "stonehearth:ai_pack:ranged_combat",
+               "stonehearth:ai_pack:melee_combat",
                "stonehearth:ai_pack:combat_control",
                "stonehearth:ai_pack:mining",
                "stonehearth:ai_pack:place_item",

@@ -2,8 +2,8 @@
    "craftable_recipes": {
       "tools": {
          "recipes": {
-            "militia_staff": {
-               "recipe": "file(magician_staff_recipe.json)"
+            "spear": {
+               "recipe": "file(spear_recipe.json)"
             }
          }      
       }

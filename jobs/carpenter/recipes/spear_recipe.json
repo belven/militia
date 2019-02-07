@@ -2,10 +2,10 @@
    "type": "recipe",
    "effort": 30,
    "work_units": 20,
-   "recipe_name": "i18n(militia:jobs.carpenter.recipes.magician_staff_recipe.recipe_name)",
-   "description": "i18n(militia:jobs.carpenter.recipes.magician_staff_recipe.description)",
+   "recipe_name": "i18n(militia:jobs.carpenter.recipes.spear_recipe.recipe_name)",
+   "description": "i18n(militia:jobs.carpenter.recipes.spear_recipe.description)",
    "flavor": "",
-   "portrait": "/militia/jobs/carpenter/recipes/staff.png",
+   "portrait": "/militia/jobs/carpenter/recipes/spear.png",
    "workshop": "stonehearth:carpenter:workbench",
    "level_requirement": 1,
    "ingredients": [
