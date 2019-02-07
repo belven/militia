@@ -8,26 +8,14 @@
             "layer": "clothing",
             "transparent": false,
             "models": [
-               "file(footman_outfit.qb)"
+               "file(militia_outfit.qb)"
             ]
          },
          "female": {
             "layer": "clothing",
             "transparent": false,
             "models": [
-               "file(footman_outfit_female.qb)"
-            ]
-         },
-         "orc_male": {
-            "layer": "clothing",
-            "models": [
-               "file(footman_outfit_orc_male.qb)"
-            ]
-         },
-         "orc_female": {
-            "layer": "clothing",
-            "models": [
-               "file(footman_outfit_orc_female.qb)"
+               "file(militia_outfit_female.qb)"
             ]
          }
       },
@@ -41,9 +29,9 @@
          "base_damage_reduction": 2
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:jobs.footman.footman_outfit.display_name)",
-         "description": "i18n(stonehearth:jobs.footman.footman_outfit.description)",
-         "icon": "file(footman_outfit.png)"
+         "display_name": "i18n(stonehearth:jobs.militia.militia_outfit.display_name)",
+         "description": "i18n(stonehearth:jobs.militia.militia_outfit.description)",
+         "icon": "file(militia_outfit.png)"
       }
    }
 }

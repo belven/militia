@@ -16,6 +16,7 @@
       "mainhand": "militia:weapons:spear"
    },
    "roles": [
+      "footman_job",
       "militia_job",
       "cloth_wearer",
       "melee_combat",

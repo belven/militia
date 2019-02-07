@@ -50,8 +50,8 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.weapons.spear.display_name)",
-         "description": "i18n(stonehearth:entities.weapons.spear.description)",
+         "display_name": "i18n(militia:weapons.spear.display_name)",
+         "description": "i18n(militia:weapons.spear.description)",
          "icon": "file(spear.png)",
          "category": "weapons",
          "material_tags": ["wood", "melee_weapon"]
