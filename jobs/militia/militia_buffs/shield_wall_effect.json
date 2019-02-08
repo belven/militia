@@ -1,15 +1,15 @@
 {
    "type": "buff",
    "axis": "buff",
-   "display_name": "Wind Speed",
-   "description": "Ride like the wind!",
-   "icon": "file(/jobs/mage/mage_buffs/speed_aura_effect.png)",
-   "duration": "15m",
+   "display_name": "Armour Up!",
+   "description": "Improved defence from being with friends",
+   "icon": "file(/jobs/militia/militia_buffs/shield_wall_effect.png)",
+   "duration": "5m",
    "repeat_add_action": "renew_duration",
    "persistent": false,
    "modifiers": {
-      "multiplicative_armor_modifier": {
-         "add": 0.1
+      "additive_armor_modifier": {
+         "add": 100
       }
    }
 }
