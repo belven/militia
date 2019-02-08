@@ -52,6 +52,20 @@
                "demote_fn":"remove_buff"
             }
          ]
+      },
+      "2":{
+         "perks":[
+            {
+               "type":"apply_buff",
+               "name":"Shield Wall",
+               "id":"shield_wall_aura",
+               "icon":"file(images/shield_wall_effect.png)",
+               "buff_name":"militia:abilities:militia:shield_wall",
+               "description":"Stand strong",
+               "level":2,
+               "demote_fn":"remove_buff"
+            }
+         ]
       }
    }
 }

@@ -1,8 +1,8 @@
 {
    "type": "buff",
    "axis": "buff",
-   "display_name": "i18n(stonehearth:jobs.footman.footman_buffs.speed_buff.display_name)",
-   "description": "i18n(stonehearth:jobs.footman.footman_buffs.speed_buff.description)",
+   "display_name": "i18n(stonehearth:jobs.footman.footman_buffs.shield_wall.display_name)",
+   "description": "i18n(stonehearth:jobs.footman.footman_buffs.shield_wall.description)",
    "icon": "file(footman_buff_speed_boost.png)",
    "modifiers": {
       "speed": {

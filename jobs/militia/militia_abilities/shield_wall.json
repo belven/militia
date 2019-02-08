@@ -1,0 +1,16 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "Shield Wall",
+   "description": "With friends you stand strong",
+   "icon": "file(/jobs/militia/militia_abilities/shield_wall.png)",
+   "script": "stonehearth:buff_scripts:aura",
+   "script_info": {
+      "pulse": "5m",
+      "aura_buff": "militia:buffs:militia:shield_wall_effect",
+      "radius": 40,
+      "affect_self": true,
+      "pulse_immediately": true,
+      "target_type": "mob"
+   }
+}

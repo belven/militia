@@ -14,7 +14,9 @@
       "militia:talisman":"file(weapons/spear/spear_talisman.json)",
       "mixins:item_properties":"file(mixins/item_properties.json)",
       "weapons:spear":"file(weapons/spear/spear.json)",
-      "armour:light_shield":"file(armour/light_shield/light_shield.json)"
+      "armour:light_shield":"file(armour/light_shield/light_shield.json)",
+      "buffs:militia:shield_wall_effect": "file(jobs/militia/militia_buffs/shield_wall_effect.json)",
+      "abilities:militia:shield_wall": "file(jobs/militia/militia_abilities/shield_wall.json)"
    },
    "mixintos":{
       "stonehearth/jobs/carpenter/recipes/recipes.json":"file(jobs/carpenter/recipes/recipes.json)",
